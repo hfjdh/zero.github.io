@@ -1,0 +1,159 @@
+.head {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+}
+
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: black;
+}
+
+.video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    pointer-events: none;
+	 box-sizing: border-box;
+}
+
+.top-left {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    pointer-events: auto;
+	color: white;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.top-right {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    pointer-events: auto;
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu-item:hover {
+    color: lightgray;
+}
+
+.bottom-center {
+    position: absolute;
+    bottom: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    pointer-events: auto;
+}
+
+.bottom-text1 {
+	/* font-family:"PMingLiU-ExtB"; */
+	letter-spacing:3px;
+	font-size: 25px;
+}
+
+.border{
+	width: 200px;
+	border-top: 3px white solid;
+}
+
+.bottom-text2{
+	/* font-family:"PMingLiU-ExtB"; */
+	font-weight: 1000;
+	font-size: 42px;
+	letter-spacing:6px;
+}
+
+.learn-more-button {
+    padding: 8px 30px;
+    font-size: 15px;
+	/* font-family:"PMingLiU-ExtB"; */
+	letter-spacing:2px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.learn-more-button:hover {
+    background-color: lightgray;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* .content{
+	margin-top: 100vh;
+	padding: 20px 0px;
+} */
+
+/* .content img{
+	width: 800px;
+} */
+
+.content1{
+	margin: 50px auto 50px auto;
+	width: 1280px;
+	height: 400px;
+}
+
+.content1 img{
+	width: 400px;
+}
+
+.xiaozi{
+	font-size: 13px;
+}
+
+.content2{
+	margin:0 auto 0 auto;
+	width: 100%;
+	height: 600px;
+	background:rgb(230, 230, 230);
+}
+
+.content2 img{
+	width: 700px;
+	padding:100px 100px 100px 0px;
+	float: left;
+}
+
+.fengmiangushi{
+	padding-top: 100px;
+	padding-right: 50px;
+}
+
